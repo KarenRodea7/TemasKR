@@ -7,6 +7,7 @@ import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -16,8 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
     Spinner spinner;
     TextView text;
+    Button bot;
     int nuevo;
-    String TEMA;
+    private static String TEMA = "tema";
 
     SharedPreferences preferences;
 
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         spinner = findViewById(R.id.Spinner1);
         text = findViewById(R.id.Text);
+        bot = findViewById(R.id.Bot);
 
         final String[] nombre = {"Selecciona un tema","Sakura","Bosque","Cielo"};
         int[] estilos = {R.style.Sakura, R.style.Bosque, R.style.Cielo};

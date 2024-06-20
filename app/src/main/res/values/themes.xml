@@ -8,30 +8,42 @@
     <style name="Theme.Estilos_KR" parent="Base.Theme.Estilos_KR" />
 
     <style name="Sakura" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:background">@drawable/fondo_sakura</item>
         <item name="android:textColor">#3B1150</item>
         <item name="android:orientation">vertical</item>
         <item name="android:gravity">center_horizontal</item>
-        <item name="android:button">@style/Widget.AppCompat.Button</item>
-        <item name="android:buttonTint">#F10E5F</item>
+        <item name="android:button">@style/BotonRojo</item>
     </style>
 
     <style name="Bosque" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:background">@drawable/fondo_arboles</item>
         <item name="android:textColor">#5368DA</item>
         <item name="android:orientation">vertical</item>
         <item name="android:gravity">center_horizontal</item>
-        <item name="android:button">@style/Widget.AppCompat.Button</item>
-        <item name="android:buttonTint">#ffff</item>
+        <item name="android:button">@style/BotonBlanco</item>
     </style>
 
     <style name="Cielo" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:background">@drawable/fondo_estrellado</item>
         <item name="android:textColor">#84DFED</item>
         <item name="android:orientation">vertical</item>
         <item name="android:gravity">center_horizontal</item>
-        <item name="android:button">@style/Widget.AppCompat.Button</item>
+        <item name="android:button">@style/BotonBlanco</item>
+    </style>
+
+    <style name="BotonBlanco">
         <item name="android:buttonTint">#ffff</item>
     </style>
+
+    <style name="BotonRojo">
+        <item name="android:buttonTint">#ffff</item>
+    </style>
+
 
 </resources>
